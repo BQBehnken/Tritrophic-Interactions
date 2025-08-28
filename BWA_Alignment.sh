@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (c) 2025 Brian Behnken
+
 # Reference to use
 REF=Pvulgaris_442_v2.0.fa
 
