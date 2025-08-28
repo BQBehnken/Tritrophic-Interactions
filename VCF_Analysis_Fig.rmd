@@ -249,6 +249,7 @@ panelA <- ggplot(df, aes(x = sample, y = Mb, color = cls)) +
 
 panelA
 
+# I like these dimensions
 ggsave("panel_a.eps", panelA, width = 5, height = 9)
 
 roiscan <- c(6.700000, 8.500000)
