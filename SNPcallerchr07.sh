@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (c) 2025 Brian Behnken
+
+
 ##############################
 # User settings
 ##############################
