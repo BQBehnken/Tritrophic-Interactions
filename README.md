@@ -16,3 +16,6 @@ My third and final script in R allowed me to turn those SNP calls into a datafra
 Additionally, I wanted to plot SNP density along chromosome 7 as well as depth of coverage for our specific gene of interest, since the SNP calls would not show the deletion. 
 
 I was then able to plot those values, export them to EPS, and arrange them into figure panels in Illustrator. 
+
+This was our supplemental figure for our paper documenting the story of how some legumes use this key receptor to detect caterpillar herbivory and mediate direct (chemical) and indirect (volatile for predator) defenses against these herbivores. 
+These introgressed lines were our main tool to study this interaction, and this figure gives us a look under the hood of our tools. You can find our preprint here: https://doi.org/10.1101/2025.07.29.667524
