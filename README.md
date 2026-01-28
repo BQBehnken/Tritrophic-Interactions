@@ -5,8 +5,8 @@ In the interest of transparency, these scripts were created in order to replicat
 These are by no means perfect, but it accomplished a similar goal.
 
 The way I accomplished this was by using a Bash script to use a BWA to process the fastqc.zip files I received from the service that performed our WGS (Genewiz/Azenta). 
-This was aligned to reference genome Labor Ovalle, as our beans are Mesoamerican. ("Phaseolus vulgaris Labor Ovalle v1.1 DOE-JGI, https://phytozome-next.jgi.doe.gov/info/PvulgarisLaborOvalle_v1_1")
-These scripts were written because we introgressed Parent B into Parent A six times, and we wanted to see how big the introgression was. The gene of interest that we introgressed had a deletion in a key receptor.
+This was aligned to reference genome Labor Ovalle, as our beans are Mesoamerican ("Phaseolus vulgaris Labor Ovalle v1.1 DOE-JGI, https://phytozome-next.jgi.doe.gov/info/PvulgarisLaborOvalle_v1_1").
+These scripts were written because we crossed Parent B and a selection of subsequent progeny into Parent A six times, and we wanted to see how big the introgression was. The gene of interest that we introgressed had a deletion in a key receptor.
 The idea was that each of our sibling lines should be mostly identical to each other exept for the introgression. 
 
 After the script compiled and deduplicated the BAMs, a subscript kept only primary aligned reads, excluding multi-mapping. 
