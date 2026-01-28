@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # SPDX-License-Identifier: Apache-2.0
-# Copyright (c) 2025 Brian Behnken
+# Copyright (c) 2026 Brian Behnken
 
 
 REF="PvulgarisLaborOvalle_670_v1.0.fa"     
