@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# Copyright (c) 2025 Brian Behnken
+# Copyright (c) 2026 Brian Behnken
 
 cat("\014"); rm(list=ls())
 gc() # working with these files uses a lot of scratch disk
