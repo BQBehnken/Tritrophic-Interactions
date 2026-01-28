@@ -1,4 +1,5 @@
-
+# SPDX-License-Identifier: Apache-2.0
+# Copyright (c) 2026 Brian Behnken
 
 pacman::p_load(tidyverse, openxlsx)
 
