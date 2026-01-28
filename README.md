@@ -19,5 +19,7 @@ I was then able to plot those values, export them to PDF, and arrange them into 
 
 Finally, I used a Bash script to compile statistics from all of the BAMs (the initial unfiltered BAMs). An R script then parsed those statistics and compiled them into a summary Excel Spreadsheet. 
 
+The order of the Scripts is 1) the BWA from FASTQ Bash script, 2) The SNP-caller and VCF creator Bash Script, 3) The VCF Analysis in R, 4) the WGS statistic compiler in Bash, 5) the Statistics parser in R.
+
 This was our supplemental figure for our paper documenting the story of how some legumes use this key receptor to detect caterpillar herbivory and mediate direct (chemical) and indirect (volatile for predator) defenses against these herbivores. 
 These introgressed lines were our main tool to study this interaction, and this figure gives us a look under the hood of our tools. You can find our preprint here: https://doi.org/10.1101/2025.07.29.667524
